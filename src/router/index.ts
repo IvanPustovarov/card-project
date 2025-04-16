@@ -8,7 +8,7 @@ const routes = [
 ];
 
 const router = createRouter({
-  history: createWebHistory(), // для обычного HTML5 history API
+  history: createWebHistory(),
   routes,
 });
 
